@@ -1,0 +1,65 @@
+.header{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.subHeader{
+    font-size: large;
+    text-align: center;
+}
+
+.formClass {
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.currentWeatherInfo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+.cityNameInput{
+    font-size: xx-large;
+    padding: 10px 30px;
+}
+
+.bigbody{
+    align-items: center;
+    justify-content: center;
+}
+.currentWeatherInfoBox{
+    background:rgb(165, 157, 157);
+    padding: 25px;
+    position: fixed;
+    display: flex;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.futureWeatherItems{
+    background:rgb(31, 31, 31);
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.futureWeatherItemsBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
