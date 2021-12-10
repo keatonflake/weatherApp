@@ -17,7 +17,7 @@
     <div class="container">
 
         <div>
-            <form class="formClass">
+            <form id="formClass">
                 <label for="cityNameLabel">City Name: </label>
                 <input type="text" id="cityNameInput" placeholder="Enter City Name">
                 <button class="btn" type="submit">Submit</button>
@@ -36,9 +36,9 @@
 <div class="currentWeatherInfoBox">
 
     <!-- display of city name -->
-                <h3 class="cityNameInput"> Snowflake: </h3>
+                <h3 class="cityNameTitle"> Snowflake: </h3>
                 <!-- display of cityNameInput Time and Date -->
-        <div class="dateContainer dateAndTime"> 12/7/21, 12:00 PM </div>
+        <div class="dateContainer" id="dateAndTime"> 12/7/21, 12:00 PM </div>
 
         <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="current-w-icon">
         <!-- current humidity -->
@@ -46,21 +46,25 @@
             <div> Humidity </div>
             <div id="humidity"> % </div>
         </div>
+
         <!-- current temp -->
         <div class="currentWeatherItems">
             <div> Temp </div>
             <div id="temp"> °F </div>
         </div>
+
         <!-- current wind_speed -->
         <div class="currentWeatherItems">
             <div> Wind Speed </div>
-            <div class="wind_speed"> mph </div>
+            <div id="windSpeed"> mph </div>
         </div>
+
         <!-- current uvi index -->
         <div class="currentWeatherItems">
             <div> UVI Index </div>
-            <div class="uvi"> mph </div>
+            <div id="uvi"> mph </div>
         </div>
+
     </div>
     </div>
 

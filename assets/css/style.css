@@ -1,6 +1,10 @@
-.header{
+body{
     text-align: center;
-    font-size: xx-large;
+}
+
+.header{
+    margin-top: 20px;
+    font-size: 40px;
 }
 
 .subHeader{
@@ -12,6 +16,20 @@
     justify-content: center;
     text-align: center;
     font-size: xx-large;
+    display: inline-block;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+}
+
+.btn{
+    padding: 5px 5px;
+    font-size: 20px;
 }
 
 .currentWeatherInfo{
@@ -20,8 +38,7 @@
     text-align: center;
 }
 
-
-.cityNameInput{
+.cityNameTitle{
     font-size: xx-large;
     padding: 10px 30px;
 }
@@ -39,6 +56,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    font-size: xx-large;
 }
 
 .futureWeatherItems{
